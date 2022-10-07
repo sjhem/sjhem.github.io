@@ -59,12 +59,23 @@ font-family: 'Inter', sans-serif;
     font-size: 15px;
 }
 .borderlines{
-    border-left: 2px solid gray;
     border-top: 2px solid gray;
-    height: 350px;
+    height: 10px;
     width: 90%;
     margin-left: 50px;
     margin-top: 50px;
+}
+.vertical-line{
+    border-right: 2px solid gray;
+    height: 350px;
+    width: 50px;
+    margin-top: 0;
+}
+.second{
+    border-right: 2px solid gray;
+    height: 100px;
+    width: 50px;
+    margin-top: 40px;
 }
 .nav{
     margin-right: 5%;
@@ -82,14 +93,11 @@ font-family: 'Inter', sans-serif;
     font-size: 23px;
     line-height: 23px;
     border-left: 4px solid rgba(222, 222, 248, 0.386);
-    height: 240px;
+    height: 260px;
     font-family: 'Inter', sans-serif;
 }
 .title{
     padding-top: 10px;
     font-weight: bolder;
     color: rgba(196, 202, 223, 1);
-}
-.description-container{
-    padding-left: 
 }
