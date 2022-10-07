@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: linear-gradient(to right, rgb(1, 4, 23), rgb(35, 35, 43));
+    background-image: linear-gradient(to right, #010417, #23232b);
 }
 .nav{
 font-family: 'Inter', sans-serif;
@@ -13,7 +13,7 @@ font-family: 'Inter', sans-serif;
     padding-left: 0;
     padding-right: 7px;
     border: 0;
-    color: #fff5f5;
+    color: #FFEECA;
 }
 .socials{
     display: flex;
@@ -31,7 +31,7 @@ font-family: 'Inter', sans-serif;
     padding-top: 85px;
 }
 .name{
-    color: #fff5f5;
+    color: #FFEECA;
     display: flex;
     flex-direction: column;
     padding-top: 50px;
@@ -99,5 +99,5 @@ font-family: 'Inter', sans-serif;
 .title{
     padding-top: 10px;
     font-weight: bolder;
-    color: rgba(196, 202, 223, 1);
+    color: #eab07d;
 }
