@@ -48,7 +48,7 @@ font-family: 'Inter', sans-serif;
     padding-top: 55px;
     text-align: justify;
     text-justify: inter-word;
-    font-size: small;
+    font-size: 15px;
 }
 .borderlines{
     border-left: 2px solid gray;
