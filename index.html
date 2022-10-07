@@ -9,9 +9,73 @@
     crossorigin="anonymous"></script>
 <!--index css-->
 <link rel="stylesheet" href="index.css">
+<!--fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
+<!--icons-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
     <body>
-        <h1>Jermhelle Sakiwat</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur reprehenderit voluptatibus expedita soluta esse explicabo enim accusamus nemo nobis. Doloremque, officia. Quibusdam magni alias id voluptatem molestias, corporis dicta inventore.</p>
+        <div class="borderlines">
+            <div class="top-nav">
+                <ul class="nav justify-content-end">
+                    <li class="nav-link">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <div class="socials">
+                        <li class="nav-link">
+                            <a class="nav-link" href="#"><i class="bi bi-envelope"></i></a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="nav-link" href="#"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li class="nav-link">
+                            <a class="nav-link" href="#"><i class="bi bi-github"></i></a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="introduction container row">
+                <div class="name col">
+                    <p class="fname">Jermhelle</p>
+                    <p class="lname">Sakiwat</p>  
+                </div>
+                <div class="descriptions-container row">
+                <div class="col-2"></div>
+                    <div class="description col-8">
+                    <p>A short description about me in about two to three lines.
+                        A short description about me in about two to three lines.
+                        A short description about me in about two to three lines.
+                    </p>
+                </div>                 
+                <div class="Title-container col-2">
+                    <p class="title">
+                        ABOUT ME
+                    </p>
+                </div>                    
+                </div>
+            </div>
+
+        </div>
+        <div class="dateTime-container">
+            <div id="dateTime">
+            </div>
+        </div>
+        
     </body>
+<script>
+     var today = new Date();
+        var date = (today.getMonth() + 1) + '/' + today.getDate() + '/' + today.getFullYear();
+        var time = today.getHours() + ":" + today.getMinutes();
+        var dateTime = date + ' ' + time;
+
+        document.getElementById("dateTime").innerHTML = dateTime;
+</script>
 </html>
